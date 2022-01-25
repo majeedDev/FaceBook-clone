@@ -5,7 +5,7 @@ class CreateUsers < ActiveRecord::Migration[7.0]
       t.string :email
       t.integer :age
       t.string :gender
-
+      # I made an update
       t.timestamps
     end
     add_index :users, :email, unique: true
